@@ -73,6 +73,18 @@ section a {
     color: var(--secondary-color);
 }
 
+.col1 {
+    float: left;
+    width: 75%;
+}
+
+.col2 {
+    float: right;
+    width: 20%;
+    position: fixed;
+    right: 0;
+}
+
 .about-me {
     margin: 70px 0;
     background-color: var(--tertiary-color);
@@ -175,6 +187,12 @@ section a {
 
 #project2 {
     background-image: url("../images/horiseon.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#project3 {
+    background-image: url("../images/lacocina.jpg");
     background-size: cover;
     background-position: center;
 }
